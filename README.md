@@ -1,4 +1,4 @@
-# Cybersecurity Scripting & Automation Internship — Phase 1
+# Cybersecurity Scripting & Automation — Phase 1
 
 **Practical Scripting & Automation**
 Languages: Bash + Python | Mode: Self-Paced
