@@ -1,0 +1,57 @@
+
+============================================================(B
+ LOG ANALYSIS REPORT(B
+============================================================(B
+Target file  : ./sentinelguard_reports/demo_auth.log
+Threshold    : 5 failed attempts from one IP => brute-force flag
+Generated    : 2026-09-30 10:26:26
+
+Summary(B
+  Failed login attempts : 18
+  Successful logins     : 6
+  Sudo command usages   : 4
+  New user creations    : 1
+
+Top Failed-Login Source IPs(B
+  [BRUTE-FORCE](B 45.33.12.201 -> 15 failed attempts
+  [info] 185.220.101.5 -> 3 failed attempts
+
+Possible Compromise Indicators(B
+  [ALERT](B Successful login from brute-force source 45.33.12.201 -- investigate immediately!
+
+New User Accounts Created(B
+  [NEW USER](B backdoor_user
+
+Log analysis completed.(B
+
+============================================================(B
+ IOC SCAN REPORT(B
+============================================================(B
+Target directory   : /home/radha/Downloads/cyber-security-internship-phase1/bash-log-analyzer/sentinelguard_reports/demo_tree
+Recent-file window : last 24h
+Generated          : 2026-09-30 10:26:26
+
+[1] SUID files (privilege-escalation risk)(B
+  [SUID](B ./sentinelguard_reports/demo_tree/app/bin/deploy.sh
+
+[2] SGID files(B
+  [SGID](B ./sentinelguard_reports/demo_tree/app/bin/deploy.sh
+
+[3] World-writable files (tamper risk)(B
+  [WORLD-WRITABLE](B ./sentinelguard_reports/demo_tree/app/config/settings.conf
+
+[4] Hidden files(B
+  [hidden] ./sentinelguard_reports/demo_tree/.hidden_dir/.env
+
+[5] Recently modified files (last 24h)(B
+  [recent](B ./sentinelguard_reports/demo_tree/tmp/update.sh
+  [recent](B ./sentinelguard_reports/demo_tree/.hidden_dir/.env
+  [recent](B ./sentinelguard_reports/demo_tree/app/config/settings.conf
+  [recent](B ./sentinelguard_reports/demo_tree/app/bin/deploy.sh
+
+[6] Suspicious scripts in temp locations (/tmp, /dev/shm)(B
+  [SUSPICIOUS](B ./sentinelguard_reports/demo_tree/tmp/update.sh
+
+IOC scan completed.(B
+
+(Skipping integrity check: no baseline found. Create one with --mode integrity --baseline.)(B

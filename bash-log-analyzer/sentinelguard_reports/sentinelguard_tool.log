@@ -1,0 +1,9 @@
+[2026-09-30 10:26:26] Invoked with: --demo --html (mode=)
+[2026-09-30 10:26:26] OK: Demo log created: ./sentinelguard_reports/demo_auth.log (29 lines)
+[2026-09-30 10:26:26] OK: Demo directory tree created at: ./sentinelguard_reports/demo_tree
+[2026-09-30 10:26:26] OK: Report saved: ./sentinelguard_reports/full_scan_20260930_102626.txt
+[2026-09-30 10:26:26] OK: HTML report saved: ./sentinelguard_reports/full_scan_20260930_102626.html
+[2026-09-30 10:27:01] Invoked with:  (mode=)
+[2026-09-30 10:27:14] ERROR: Log file not found: log
+[2026-09-30 10:27:21] OK: Report saved: ./sentinelguard_reports/ioc_20260930_102721.txt
+[2026-09-30 10:27:29] ERROR: Baseline file not found: ./sentinelguard_reports/baseline.sha256

@@ -1,0 +1,29 @@
+Sep 30 08:26:46 demo-host sshd[2998]: Failed password for invalid user backup from 45.33.12.201 port 23227 ssh2
+Sep 30 08:27:06 demo-host sshd[5171]: Failed password for invalid user guest from 45.33.12.201 port 6765 ssh2
+Sep 30 08:27:26 demo-host sshd[7324]: Failed password for invalid user deploy from 45.33.12.201 port 17833 ssh2
+Sep 30 08:27:46 demo-host sshd[5311]: Failed password for invalid user svc_backup from 45.33.12.201 port 22323 ssh2
+Sep 30 08:28:06 demo-host sshd[4321]: Accepted password for root from 45.33.12.201 port 55210 ssh2
+Sep 30 08:28:06 demo-host sshd[6356]: Failed password for invalid user oracle from 45.33.12.201 port 16593 ssh2
+Sep 30 08:28:26 demo-host sshd[9256]: Failed password for invalid user svc_backup from 45.33.12.201 port 19895 ssh2
+Sep 30 08:28:46 demo-host sshd[7757]: Failed password for invalid user ubuntu from 45.33.12.201 port 3153 ssh2
+Sep 30 08:29:06 demo-host sshd[2340]: Failed password for invalid user backup from 45.33.12.201 port 15682 ssh2
+Sep 30 08:29:26 demo-host sshd[6408]: Failed password for invalid user backup from 45.33.12.201 port 23808 ssh2
+Sep 30 08:29:46 demo-host sshd[5317]: Failed password for invalid user backup from 45.33.12.201 port 28482 ssh2
+Sep 30 08:30:06 demo-host sshd[4298]: Failed password for invalid user svc_backup from 45.33.12.201 port 29154 ssh2
+Sep 30 08:30:26 demo-host sshd[4856]: Failed password for invalid user svc_backup from 45.33.12.201 port 9380 ssh2
+Sep 30 08:30:46 demo-host sshd[2399]: Failed password for invalid user test from 45.33.12.201 port 19323 ssh2
+Sep 30 08:31:06 demo-host sshd[8683]: Failed password for invalid user test from 45.33.12.201 port 5050 ssh2
+Sep 30 08:31:26 demo-host sshd[4789]: Failed password for invalid user oracle from 45.33.12.201 port 30014 ssh2
+Sep 30 08:56:56 demo-host sshd[3778]: Failed password for guest from 185.220.101.5 port 1850 ssh2
+Sep 30 08:57:26 demo-host sshd[2095]: Failed password for guest from 185.220.101.5 port 13832 ssh2
+Sep 30 08:57:56 demo-host sshd[6977]: Failed password for backup from 185.220.101.5 port 24119 ssh2
+Sep 30 09:28:07 demo-host sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 30 09:32:29 demo-host sshd[4170]: Accepted password for svc_backup from 192.168.1.15 port 3362 ssh2
+Sep 30 09:54:20 demo-host sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 30 09:56:26 demo-host useradd[5555]: new user: name=backdoor_user, UID=0, GID=0, home=/home/backdoor_user, shell=/bin/bash
+Sep 30 09:57:38 demo-host sshd[8665]: Accepted password for root from 192.168.1.10 port 21879 ssh2
+Sep 30 09:58:01 demo-host sshd[6705]: Accepted password for test from 192.168.1.15 port 8450 ssh2
+Sep 30 10:01:57 demo-host sshd[4658]: Accepted password for jenkins from 10.0.0.5 port 20947 ssh2
+Sep 30 10:07:52 demo-host sudo: backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 30 10:15:28 demo-host sshd[9584]: Accepted password for svc_backup from 192.168.1.15 port 18410 ssh2
+Sep 30 10:21:03 demo-host sudo: svc_backup : TTY=pts/0 ; PWD=/home/svc_backup ; USER=root ; COMMAND=/usr/bin/apt update

@@ -1,0 +1,37 @@
+
+============================================================(B
+ IOC SCAN REPORT(B
+============================================================(B
+Target directory   : /home/radha/Downloads/cyber-security-internship-phase1/bash-log-analyzer
+Recent-file window : last 24h
+Generated          : 2026-09-30 10:27:21
+
+[1] SUID files (privilege-escalation risk)(B
+  [SUID](B ./sentinelguard_reports/demo_tree/app/bin/deploy.sh
+
+[2] SGID files(B
+  [SGID](B ./sentinelguard_reports/demo_tree/app/bin/deploy.sh
+
+[3] World-writable files (tamper risk)(B
+  [WORLD-WRITABLE](B ./sentinelguard_reports/demo_tree/app/config/settings.conf
+
+[4] Hidden files(B
+  [hidden] ./sentinelguard_reports/demo_tree/.hidden_dir/.env
+
+[5] Recently modified files (last 24h)(B
+  [recent](B ./sentinelguard_reports/full_scan_20260930_102626.txt
+  [recent](B ./sentinelguard_reports/demo_auth.log
+  [recent](B ./sentinelguard_reports/ioc_20260930_102721.txt
+  [recent](B ./sentinelguard_reports/sentinelguard_tool.log
+  [recent](B ./sentinelguard_reports/full_scan_20260930_102626.html
+  [recent](B ./sentinelguard_reports/demo_tree/tmp/update.sh
+  [recent](B ./sentinelguard_reports/demo_tree/.hidden_dir/.env
+  [recent](B ./sentinelguard_reports/demo_tree/app/config/settings.conf
+  [recent](B ./sentinelguard_reports/demo_tree/app/bin/deploy.sh
+  [recent](B ./README.md
+  [recent](B ./sentinelguard.sh
+
+[6] Suspicious scripts in temp locations (/tmp, /dev/shm)(B
+  [SUSPICIOUS](B ./sentinelguard_reports/demo_tree/tmp/update.sh
+
+IOC scan completed.(B
